@@ -62,6 +62,7 @@ public class GameModel {
         g.drawString("F4:减少坦克速度", 1100, 120);
         g.drawString("F5:增加子弹速度", 1100, 140);
         g.drawString("F6:减少子弹速度", 1100, 160);
+        g.drawString("space:发射子弹", 1100, 180);
         g.setColor(c);
 
         myTank.paint(g);
